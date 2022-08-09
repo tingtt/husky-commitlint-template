@@ -1,0 +1,17 @@
+{
+  "name": "husky-commitlint-template",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/tingtt/husky-commitlint-template",
+  "author": "tingtt",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "husky": "^8.0.1"
+  },
+  "scripts": {
+    "commitmsg": "commitlint -e $GIT_PARAMS"
+  }
+}
