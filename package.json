@@ -12,6 +12,7 @@
     "husky": "^8.0.1"
   },
   "scripts": {
-    "commitmsg": "commitlint -e $GIT_PARAMS"
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "prepare": "husky install"
   }
 }
